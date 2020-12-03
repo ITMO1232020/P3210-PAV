@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Lab 3:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Lab_3_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Lab 3/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Lab 3" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Mojarra-2.4.0" />
+          <element id="library" level="project" name="javax.enterprise:cdi-api:1.2" />
+          <element id="library" level="project" name="org.eclipse.persistence:org.eclipse.persistence.jpa:2.7.6" />
+          <element id="library" level="project" name="org.icefaces:icefaces-ace:4.3.0" />
+          <element id="library" level="project" name="org.icefaces:icefaces:4.3.0" />
+          <element id="library" level="project" name="org.ancoron.postgresql:org.postgresql:9.1.901.jdbc4.1-rc1" />
+          <element id="library" level="project" name="WebSocket-1.1" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+.button {
+    color: black;
+    transition: .3s;
+}
+
+.button:hover {
+    background: #303030;
+    color: white;
+    border: solid white 1px;
+}
+
+.button:checked {
+    color: white;
+}
